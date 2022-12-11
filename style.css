@@ -1,0 +1,48 @@
+#Red_color{
+  font-family: 'Times New Roman', Times, serif;
+  color: rgb(54, 0, 0); 
+  font-size: 23px; 
+}
+
+#label1_name{
+    color: black;
+    font-family: Verdana, Tahoma, sans-serif;
+    font-size: large;
+}
+#confidence{ 
+  color: black;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: large;
+}
+
+#a123{
+    margin-left:1000px;
+}
+body{
+    background-color: rgb(129, 245, 12);
+}
+
+#show_sketch{
+   float: right;
+   margin-right: 30px;
+   font-size: 20px;
+}
+
+h1{
+    color: rgb(0, 0, 255);
+    font: bold;
+}
+
+canvas{
+    margin-top: 150px;
+    border: 5px white;
+    border-radius: 20px;
+    animation-name: Abc;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes Abc{
+    from{box-shadow: 1px 1px 38px rgb(192, 188, 188);}
+    to{box-shadow: 1px 1px 38px white;}
+}
